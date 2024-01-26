@@ -1,3 +1,24 @@
+# Development
+Steps to start the app in development
+
+1. Set up the db
+```
+docker-compose up -d
+```
+2.Rename the .env.example to .env
+3.- Replace the enviroment variables
+4.- Execute SEED [create local data base](localhost:3000/api/seed)
+
+# Prisma commands
+```
+npx prisma init
+npx prisma migrate dev
+npx prisma generate
+```
+# Prod
+
+# Readme
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
